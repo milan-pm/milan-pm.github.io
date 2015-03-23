@@ -1,0 +1,26 @@
+
+# Da cambiare quando avremo milan.pm.org
+url: http://milan-pm.github.io
+encoding: utf-8
+
+description: Milan Perl Mongers
+
+permalink: ./:year/:month/:title
+
+exclude:
+  - Gemfile
+  - README.md
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: Gianluca Casati
+      layout: "default"
+
+
